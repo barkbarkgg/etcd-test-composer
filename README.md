@@ -88,9 +88,9 @@ Before running your application on the Antithesis platform, it can be convenient
 
 This is a 3 step process, which is [described in greater detail here](https://antithesis.com/docs/test_templates/testing_locally/): 
 
-1. Pull the bitnami/etcd:3.5 image using the following command: 
+1. Pull the bitnamilegacy/etcd:3.5 image using the following command: 
 
-`docker pull bitnami/etcd:3.5`
+`docker pull bitnamilegacy/etcd:3.5`
 
 2. Build the client image. From within the `/test-template` directory, run the following command: 
 
